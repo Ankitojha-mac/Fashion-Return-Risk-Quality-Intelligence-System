@@ -9,17 +9,18 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-green?style=for-the-badge)
 ![NLP](https://img.shields.io/badge/NLP-MiniLM%20%2B%20KMeans-orange?style=for-the-badge)
 
-An end-to-end data science and business intelligence application designed to proactively identify high return-risk fashion products
-and uncover underlying customer quality friction. By combining **unsupervised NLP complaint clustering** with **supervised gradient-boosted
-risk scoring**, this tool empowers merchandising and QA teams to make data-driven catalog decisions.
+An end-to-end data science and business intelligence application designed to proactively identify high return-risk fashion
+ products and uncover underlying customer quality friction. By combining **unsupervised NLP complaint clustering** with
+**supervised gradient-boosted risk scoring**, this tool empowers merchandising and QA teams to make data-driven catalog decisions.
 
 ---
 
 ## 🎯 Problem Statement
 
-In fashion e-commerce, high return rates and post-purchase dissatisfaction severely impact profit margins and increase reverse-logistics costs.
-Sizing inconsistencies, fit mismatches, fabric flaws, and aggressive clearance discounting are major drivers of return friction.
-This system bridges the gap between customer review sentiment and catalog-level merchandising attributes to flag risky SKUs before they cause large-scale return bottlenecks.
+In fashion e-commerce, high return rates and post-purchase dissatisfaction severely impact profit margins and increase
+reverse-logistics costs. Sizing inconsistencies, fit mismatches, fabric flaws, and aggressive clearance discounting are
+major drivers of return friction.This system bridges the gap between customer review sentiment and catalog-level merchandising
+attributes to flag risky SKUs before they cause large-scale return bottlenecks.
 
 ---
 
