@@ -139,7 +139,7 @@ if selected_tier != "All":
   filtered_df = filtered_df[filtered_df["risk_tier"] == selected_tier]
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Filtered SKUs", f"{len(filtered_df):,}")
+col1.metric("Total Items ", f"{len(filtered_df):,}")
 col2.metric(
     "High Risk Items",
     f"{(filtered_df['risk_tier'] == 'High Risk').sum():,}",
