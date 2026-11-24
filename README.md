@@ -127,7 +127,7 @@ xgboost
 joblib
 
 ```
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Language: Python
 
