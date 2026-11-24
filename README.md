@@ -69,18 +69,19 @@ This system bridges the gap between customer review sentiment and catalog-level 
 * **Actionable Tables:** A **Brand Risk Leaderboard** (filtered by minimum catalog size) and a **Deduplicated Top High-Risk Catalog Items** table mapped to primary complaint tags.
 
 ---
+📂 Project Structure
 
-## 📁 Repository Structure
-
-```text
 ├── .streamlit/
-│   └── config.toml                    # Custom Myntra light theme configuration
-├── app.py                             # Main Streamlit dashboard application
-├── scored_catalog_risk.csv            # Enriched catalog dataset with risk probabilities & tags
-├── complaint_clusters_summary.csv     # NLP review cluster assignments & category labels
-├── fashion_risk_xgb_model.joblib      # Serialized XGBoost risk classification model
-├── requirements.txt                   # Python dependencies
-└── README.md                          # Project documentation
+│   └── config.toml                          # Myntra-inspired light theme (#FFFFFF & #FF3F6C)
+├── app.py                                   # Main Streamlit dashboard application
+├── fasion_proj.ipynb                        # End-to-end EDA, NLP clustering & XGBoost modeling notebook
+├── fashion_risk_xgb_model.joblib            # Trained XGBoost risk classifier artifact
+├── scored_catalog_risk.csv                  # Scored catalog dataset with risk tiers & complaint tags
+├── complaint_clusters_summary.csv           # NLP review complaint cluster summaries
+├── myntra_dataset_ByScraping.csv            # Raw Myntra catalog dataset (52,120 rows)
+├── Womens Clothing E-Commerce Reviews.csv   # Raw customer reviews dataset (23,486 rows)
+├── requirements.txt                         # Python dependencies
+└── README.md                                # Project documentation
 
 ```
 
@@ -125,6 +126,15 @@ xgboost
 joblib
 
 ```
+🛠️ Tech Stack
+
+Language: Python
+
+NLP & Clustering: Sentence-Transformers (MiniLM), Scikit-learn (KMeans, TF-IDF)
+
+Machine Learning: XGBoost (XGBClassifier), Pandas, NumPy, Joblib
+
+Frontend & Visualization: Streamlit
 
 ---
 
