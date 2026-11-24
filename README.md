@@ -1,8 +1,5 @@
 # Fashion-Return-Risk-Quality-Intelligence-System
 
-Yahan aapke GitHub repository ke liye ek professional, clean aur complete `README.md` file ready hai. Isme saare technical details, architecture, metrics aur setup steps shamil hain.
-
-Bas neeche diye gaye text ko copy karke apne project folder mein `README.md` naam se save kar lein (aur zaroorat ho toh screenshots add kar sakte hain):
 
 ```markdown
 # 🛍️ Fashion Return-Risk & Quality Intelligence System
